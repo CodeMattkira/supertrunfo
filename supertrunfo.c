@@ -36,13 +36,13 @@ int main(){
     printf("Olá, seja bem vindo a criação das cartas do jogo. A seguir será solicitado informações que serão adicionadas a cada carta do jogo. Vamos começar! \n");
     
     printf("Primeiro, digite o estado: ");
-    scanf("%s", &estado1);
+    scanf("%s", estado1);
 
     printf("Agora digite o código da carta: ");
-    scanf("%s", &codigocarta1);
+    scanf("%s", codigocarta1);
 
     printf("Agora digite o nome da cidade: ");
-    scanf("%s", &nomecidade1);
+    scanf("%s", nomecidade1);
 
     printf("Agora digite a população: ");
     scanf("%d", &populacao1);
@@ -61,13 +61,13 @@ int main(){
     printf("Agora vamos cadastrar a segunda carta!\n");
     
     printf("Primeiro, digite o estado: ");
-    scanf("%s", &estado2);
+    scanf("%s", estado2);
 
     printf("Agora digite o código da carta: ");
-    scanf("%s", &codigocarta2);
+    scanf("%s", codigocarta2);
 
     printf("Agora digite o nome da cidade: ");
-    scanf("%s", &nomecidade2);
+    scanf("%s", nomecidade2);
 
     printf("Agora digite a população: ");
     scanf("%d", &populacao2);
@@ -114,9 +114,9 @@ int main(){
     printf("Polulação da primeira carta é MAIOR que o valor da segunda carta?: %d\n", populacao1 > populacao2);
     printf("Área Km² da primeira carta é MAIOR que o valor da segunda carta?: %d\n", areakm1 > areakm2);
     printf("Números de pontos turísticos da primeira carta é MAIOR que o valor da segunda carta?: %d\n", numturisticos1 > numturisticos2);
-    printf("Pib primeira carta é MAIOR que o valor da segunda carta?: %lld\n", pib1 > pib2);
-    printf("Pib per capita da primeira carta é MAIOR que o valor da segunda carta?: %lld\n", pibpercapita1 > pibpercapita2);
-    printf("Super Poder da primeira carta é MAIOR que o valor da segunda carta?: %lld\n", superpoder1 > superpoder2);
+    printf("Pib primeira carta é MAIOR que o valor da segunda carta?: %d\n", pib1 > pib2);
+    printf("Pib per capita da primeira carta é MAIOR que o valor da segunda carta?: %d\n", pibpercapita1 > pibpercapita2);
+    printf("Super Poder da primeira carta é MAIOR que o valor da segunda carta?: %d\n", superpoder1 > superpoder2);
 
 
 
